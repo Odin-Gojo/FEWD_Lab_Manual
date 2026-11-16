@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A sample student developer portfolio with projects and contact details.">
+    <title>Portfolio | Student Developer</title>
+    <link rel="stylesheet" href="program2.css">
+    <style>
+        #about .about-copy {
+            max-width: 62ch;
+        }
+    </style>
+</head>
+<body>
+    <header class="site-header">
+        <nav class="navigation" aria-label="Main navigation">
+            <a class="wordmark" href="#home">Student Developer</a>
+            <ul class="navigation-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="intro" id="home" aria-labelledby="intro-heading">
+            <div class="intro-copy">
+                <p class="eyebrow">Student portfolio</p>
+                <h1 id="intro-heading">Building useful things for the web.</h1>
+                <p>
+                    I am a student developer learning to turn ideas into clear,
+                    accessible web experiences.
+                </p>
+                <a class="button-link" href="#projects">Explore my projects</a>
+            </div>
+            <img
+                class="intro-image"
+                src="https://picsum.photos/seed/student-workspace/900/700"
+                alt="A workspace that represents learning and building for the web"
+                width="900"
+                height="700"
+            >
+        </section>
+
+        <section class="about section-block" id="about" aria-labelledby="about-heading">
+            <h2 id="about-heading">A little about me</h2>
+            <p class="about-copy">
+                I enjoy learning how websites work, practicing HTML and CSS, and
+                building small projects that solve everyday problems. This sample
+                portfolio is a starting point for showcasing my work.
+            </p>
+        </section>
+
+        <section class="section-block" id="projects" aria-labelledby="projects-heading">
+            <div class="section-heading">
+                <h2 id="projects-heading">Selected projects</h2>
+                <p>Example projects to replace with your own work.</p>
+            </div>
+
+            <div class="project-grid">
+                <article class="project-card project-card-featured">
+                    <img
+                        src="https://picsum.photos/seed/campus-events/900/560"
+                        alt="Illustrative photo for a campus events website project"
+                        width="900"
+                        height="560"
+                        loading="lazy"
+                    >
+                    <div class="project-copy">
+                        <h3>Campus Events</h3>
+                        <p>A simple page for finding student events and workshops.</p>
+                        <p class="project-tools">HTML · CSS · Responsive layout</p>
+                    </div>
+                </article>
+
+                <article class="project-card">
+                    <img
+                        src="https://picsum.photos/seed/study-planner/720/480"
+                        alt="Illustrative photo for a study planner project"
+                        width="720"
+                        height="480"
+                        loading="lazy"
+                    >
+                    <div class="project-copy">
+                        <h3>Study Planner</h3>
+                        <p>A clean weekly view for organizing study sessions.</p>
+                        <p class="project-tools">HTML · CSS · Flexbox</p>
+                    </div>
+                </article>
+
+                <article class="project-card">
+                    <img
+                        src="https://picsum.photos/seed/book-exchange/720/480"
+                        alt="Illustrative photo for a student book exchange project"
+                        width="720"
+                        height="480"
+                        loading="lazy"
+                    >
+                    <div class="project-copy">
+                        <h3>Student Book Exchange</h3>
+                        <p>A small listing page for sharing and finding course books.</p>
+                        <p class="project-tools">HTML · CSS · CSS Grid</p>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section class="section-block contact-section" id="contact" aria-labelledby="contact-heading">
+            <div class="contact-copy">
+                <h2 id="contact-heading">Get in touch</h2>
+                <p>Have a question or want to talk about a project? Send a message.</p>
+                <p class="form-note">This sample form is for layout practice and does not send messages.</p>
+            </div>
+
+            <form class="contact-form">
+                <div class="form-field">
+                    <label for="name">Name</label>
+                    <input id="name" name="name" type="text" autocomplete="name" required>
+                </div>
+                <div class="form-field">
+                    <label for="email">Email</label>
+                    <input id="email" name="email" type="email" autocomplete="email" required>
+                </div>
+                <div class="form-field">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                </div>
+                <button type="submit">Send message</button>
+            </form>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <p>Student portfolio project</p>
+        <a href="#home">Back to top</a>
+    </footer>
+</body>
+</html>
