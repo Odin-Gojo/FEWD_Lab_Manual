@@ -20,14 +20,14 @@ body {
 }
 
 a {
-    color: #356b48;
+    color: #3157a4;
 }
 
 a:focus-visible,
 button:focus-visible,
 input:focus-visible,
 textarea:focus-visible {
-    outline: 3px solid #356b48;
+    outline: 3px solid #3157a4;
     outline-offset: 3px;
 }
 
@@ -65,7 +65,7 @@ textarea:focus-visible {
 
 .navigation-links a:hover,
 .site-footer a:hover {
-    color: #356b48;
+    color: #3157a4;
     text-decoration: underline;
     text-underline-offset: 4px;
 }
@@ -84,7 +84,7 @@ textarea:focus-visible {
 
 .eyebrow {
     margin: 0 0 12px;
-    color: #356b48;
+    color: #3157a4;
     font-size: 0.85rem;
     font-weight: 700;
     letter-spacing: 0.08em;
@@ -117,9 +117,9 @@ h1 {
 button {
     display: inline-block;
     padding: 11px 18px;
-    border: 1px solid #356b48;
+    border: 1px solid #3157a4;
     border-radius: 6px;
-    background: #356b48;
+    background: #3157a4;
     color: #fff;
     font: inherit;
     font-weight: 600;
@@ -131,7 +131,7 @@ button {
 .button-link:hover,
 button:hover {
     transform: translateY(-2px);
-    background: #28553a;
+    background: #27447e;
 }
 
 .intro-image {
@@ -226,7 +226,7 @@ button:hover {
 
 .project-copy .project-tools {
     margin-bottom: 0;
-    color: #356b48;
+    color: #3157a4;
     font-size: 0.9rem;
     font-weight: 600;
 }
@@ -373,7 +373,7 @@ button:hover {
     a,
     .eyebrow,
     .project-copy .project-tools {
-        color: #a7d1b1;
+        color: #b3c6ee;
     }
 
     .site-header,
@@ -393,14 +393,14 @@ button:hover {
 
     .button-link,
     button {
-        border-color: #82b68f;
-        background: #356b48;
+        border-color: #91aee3;
+        background: #3157a4;
         color: #fff;
     }
 
     .button-link:hover,
     button:hover {
-        background: #437e57;
+        background: #3c64a8;
     }
 
     .intro-image {
@@ -413,7 +413,7 @@ button:hover {
     }
 
     .project-card:hover {
-        border-color: #82b68f;
+        border-color: #91aee3;
     }
 
     .form-field input,
@@ -432,7 +432,7 @@ button:hover {
     button:focus-visible,
     input:focus-visible,
     textarea:focus-visible {
-        outline-color: #a7d1b1;
+        outline-color: #b3c6ee;
     }
 }
 
